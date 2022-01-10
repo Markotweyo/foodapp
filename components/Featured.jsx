@@ -14,7 +14,7 @@ const Featured = () => {
             setIndex(index !==0 ? index-1: 2)
         }
         if (direction==="r"){
-            setIndex(index !==0 ? index+1 : 0)
+            setIndex(index !==2 ? index+1 : 0)
         }
     }
 
